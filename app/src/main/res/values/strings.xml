@@ -5,4 +5,7 @@
     <string name="enter_name">Enter your name</string>
     <string name="enter_url">Enter a URL to load</string>
     <string name="browse_to">Browse To</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send_sms">Send SMS</string>
 </resources>

@@ -30,5 +30,17 @@ class DetailActivity : AppCompatActivity() {
                 startActivity(i)
             }
         }
+
+        //from Linh Duong Phung to everyone
+        smsButton.setOnClickListener{
+            if (phoneEditText.text.toString().isNotEmpty() && messageEditText.text.toString().isNotEmpty()){
+                val phone = phoneEditText.text.toString()
+                val message = messageEditText.text.toString()
+                val uri = Uri.parse("smsto:$phone");
+                val intent = Intent(Intent.ACTION_SENDTO, uri);
+                intent.putExtra("sms_body", message);
+                startActivity(intent);
+            }
+        }
     }
 }
