@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">F20Lesson4</string>
+    <string name="detail"><![CDATA[Details >>]]></string>
+    <string name="detail_heading">This is the Detail Activity</string>
+</resources>
