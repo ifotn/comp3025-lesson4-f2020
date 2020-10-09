@@ -2,4 +2,7 @@
     <string name="app_name">F20Lesson4</string>
     <string name="detail"><![CDATA[Details >>]]></string>
     <string name="detail_heading">This is the Detail Activity</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_url">Enter a URL to load</string>
+    <string name="browse_to">Browse To</string>
 </resources>
